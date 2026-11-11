@@ -1,0 +1,2 @@
+﻿group,seeds,mean_final_return,std_across_seeds,bootstrap_ci_low,bootstrap_ci_high
+Random,5,-1308.4980484442856,29.657934968537152,-1334.0809395038655,-1289.4121410628138

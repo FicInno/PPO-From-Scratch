@@ -1,0 +1,8 @@
+{
+  "python": "3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.15.0+cpu",
+  "gymnasium": "1.4.0",
+  "numpy": "2.4.6",
+  "device": "cpu"
+}

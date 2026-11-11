@@ -1,0 +1,22 @@
+algorithm: ppo_clip
+env_id: Pendulum-v1
+total_steps: 100000
+learning_rate: 0.0003
+gamma: 0.99
+reward_scale: 0.1
+gae_lambda: 0.95
+clip_epsilon: 0.2
+value_coefficient: 0.5
+entropy_coefficient: 0.0
+ppo_epochs: 10
+mini_batch_size: 64
+rollout_steps: 1024
+hidden_sizes: [64, 64]
+log_std_init: 0.0
+max_grad_norm: 0.5
+normalize_advantage: true
+normalize_observation: true
+anneal_learning_rate: false
+evaluation_interval: 5
+evaluation_episodes: 10
+final_evaluation_episodes: 20
